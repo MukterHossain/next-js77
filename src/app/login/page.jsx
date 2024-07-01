@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaGoogle, FaTwitter } from "react-icons/fa";
+
 
 const LoginPage = () => {
     return (
@@ -24,17 +24,6 @@ const LoginPage = () => {
                     <div className="flex-1 h-px sm:w-16 dark:bg-gray-300"></div>
                     <p className="px-3 text-sm dark:text-gray-600">Login with social accounts</p>
                     <div className="flex-1 h-px sm:w-16 dark:bg-gray-300"></div>
-                </div>
-                <div className="flex justify-center space-x-4">
-                    <button aria-label="Log in with Google" className="p-3 rounded-sm">
-                        <FaGoogle size={25}></FaGoogle>
-                    </button>
-                    <button aria-label="Log in with Twitter" className="p-3 rounded-sm">
-                        <FaTwitter size={25}></FaTwitter>
-                    </button>
-                    <button aria-label="Log in with GitHub" className="p-3 rounded-sm">
-                        <FaGithub size={25}></FaGithub>
-                    </button>
                 </div>
                 <p className=" text-center sm:px-6 dark:text-gray-600">Don't have an account?
                     <a rel="noopener noreferrer" href="signup" className="underline dark:text-green-800 text-green-400 font-bold"> Sign up</a>
